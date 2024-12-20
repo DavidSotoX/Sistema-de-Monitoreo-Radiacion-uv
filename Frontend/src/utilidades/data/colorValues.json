@@ -1,0 +1,32 @@
+[
+    {
+        "tipo": "Baja",
+        "valor_max": "0-2",
+        "descripcion": "Puede permanecer en el exterior sin riesgos.",
+        "color": "#4eb400"
+    },
+    {
+        "tipo": "Moderada",
+        "valor_max": "3-5",
+        "descripcion": "Pongase camisa, crema de proteccion solar, sombrero y gafas de sol",
+        "color": "#f7e400"
+    },
+    {
+        "tipo": "Alta",
+        "valor_max": "6-7",
+        "descripcion": "Mantengase a la sombra durante las horas centrales del dia. Pongase camisa, crema de proteccion solar, sombrero y gafas de sol",
+        "color": "#f85900"
+    },
+    {
+        "tipo": "Muy Alta",
+        "valor_max": "8-10",
+        "descripcion": "Son imprescindibles usar camisa, crema de proteccion solar, sombrero y gafas de sol",
+        "color": "#d8001d"
+    },
+    {
+        "tipo": "Extremadamente Alta",
+        "valor_max": "11-15",
+        "descripcion": "Son imprescindibles usar camisa, crema de proteccion solar, sombrero y gafas de sol",
+        "color": "#998cff"
+    }
+]

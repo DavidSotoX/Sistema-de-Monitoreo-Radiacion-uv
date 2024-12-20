@@ -1,0 +1,9 @@
+.leaflet-container {
+  width: 100vw;
+  height: 65vh;
+  border-radius: 15px;
+}
+.is-invalid {
+  border: 1px solid #dc3545 !important;
+  color: #dc3545 !important;
+}
