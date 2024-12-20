@@ -71,4 +71,4 @@ Funcionalidades
         Crea una nueva rama para tus cambios.
         Realiza tus cambios y haz commit.
         Envía una solicitud de pull request.
-### Créditos 🧑‍🤝‍🧑 @jandry @Javier @
+### Créditos 🧑‍🤝‍🧑 @jandry @Javier @Joffre
