@@ -1,0 +1,154 @@
+[
+  {
+    "urlBase": "http://localhost:3000/api"
+  },
+  {
+    "type": "get",
+    "models": [
+      {
+        "model": "persona",
+        "urls": [
+          "/listar/persona",
+          "/listar/persona/:external_persona"
+        ]
+      },
+      {
+        "model": "dispositivo",
+        "urls": [
+          "/listar/dispositivo/:external_dispositivo"
+        ]
+      },
+      {
+        "model": "medicion",
+        "urls": [
+          "/listar/medicion",
+          "/listar/medicion/:external_dispositivo"
+        ]
+      },
+      {
+        "model": "peticion_token",
+        "urls": [
+          "/listar/peticion_token",
+          "/listar/peticion_token/:external_token"
+        ]
+      }
+    ]
+  },
+  {
+    "type": "post",
+    "models": [
+      {
+        "model": "persona",
+        "urls": [
+          "/guardar/persona",
+          "/guardar/persona/:external_persona"
+        ]
+      },
+      {
+        "model": "dispositivo",
+        "urls": [
+          "/guardar/dispositivo/:external_dispositivo"
+        ]
+      },
+      {
+        "model": "peticion_token",
+        "urls": [
+          "/guardar/peticion_token",
+          "/guardar/peticion_token/:external_token"
+        ]
+      }
+    ]
+  },
+  {
+    "type": "post_without_token",
+    "models": [
+      {
+        "model": "persona",
+        "urls": [
+          "/registrarse",
+          "/editar_perfil/:external_persona"
+        ]
+      },
+      {
+        "model": "cuenta",
+        "urls": [
+          "/iniciar_sesion"
+        ]
+      },
+      {
+        "model": "dispositivo",
+        "urls": [
+          "/guardar/dispositivo"
+        ]
+      },
+      {
+        "model": "medicion",
+        "urls": [
+          "/guardar/medicion"
+        ]
+      },
+      {
+        "model": "gpt",
+        "urls": [
+          "/enviarmensaje"
+        ]
+      }
+    ]
+  },
+  {
+    "type": "get_without_token",
+    "models": [
+      {
+        "model": "persona",
+        "urls": []
+      },
+      {
+        "model": "cuenta",
+        "urls": []
+      },
+      {
+        "model": "dispositivo",
+        "urls": [
+          "/listar/dispositivo"
+        ]
+      },
+      {
+        "model": "medicion",
+        "urls": []
+      },
+      {
+        "model": "peticion_token",
+        "urls": []
+      },
+      {
+        "model": "api_dispositivo",
+        "urls": [
+          "/listar/api_dispositivo"
+        ]
+      }
+    ]
+  },
+  {
+    "type": "delete",
+    "models": [
+      {
+        "model": "persona",
+        "urls": [
+          "/eliminar/persona/:external_persona"
+        ]
+      }
+    ]
+  },
+  {
+    "type": "post_url",
+    "models": [
+      {
+        "model": "cuenta",
+        "urls": [
+          "/redirigir/api",
+          "/redirigir/api/:isAdmin"
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,27 @@
+[
+    {
+        "tipo": "Baja",
+        "rango_uv": "Entre 0 y 2",
+        "descripcion": "Puede permanecer en el exterior sin riesgos."
+    },
+    {
+        "tipo": "Moderada",
+        "rango_uv": "Entre 3 y 5",
+        "descripcion": "Póngase camisa, crema de protección solar, sombrero y gafas de sol."
+    },
+    {
+        "tipo": "Alta",
+        "rango_uv": "Entre 6 y 7",
+        "descripcion": "Manténgase a la sombra durante las horas centrales del día. Póngase camisa, crema de protección solar, sombrero y gafas de sol."
+    },
+    {
+        "tipo": "Muy Alta",
+        "rango_uv": "Entre 8 y 10",
+        "descripcion": "Es imprescindible usar camisa, crema de protección solar, sombrero y gafas de sol."
+    },
+    {
+        "tipo": "Extremadamente Alta",
+        "rango_uv": "Mayores o Igual a 11",
+        "descripcion": "Es imprescindible usar camisa, crema de protección solar, sombrero y gafas de sol."
+    }
+]
