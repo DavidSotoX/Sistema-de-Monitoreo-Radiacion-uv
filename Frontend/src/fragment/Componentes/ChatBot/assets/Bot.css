@@ -1,0 +1,37 @@
+.bot-container {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 999;
+  }
+  
+  .bot-button {
+    width: 60px; /* Ajusta el tamaño del botón según tus preferencias */
+    height: 60px; /* Ajusta el tamaño del botón según tus preferencias */
+    background-color: rgba(19, 35, 64, 0.7);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 0 0 10px rgba(0, 123, 255, 0.5); /* Efecto de brillo al acercar el ratón */
+    transition: background-color 0.3s, box-shadow 0.3s; /* Agregado transition para un cambio suave */
+  }
+  
+  .bot-button:hover {
+    background-color: #0056b3;
+    box-shadow: 0 0 10px rgba(0, 123, 255, 0.8); /* Cambio de sombra al pasar el ratón */
+  }
+  
+  .bot-container.active .bot-button {
+    background-color: #ff4500;
+    box-shadow: 0 0 10px rgba(255, 69, 0, 0.8); /* Cambio de sombra al estar activo */
+  }
+  
+  .bot-icon {
+    width: 60px; /* Ajusta el tamaño del icono según tus preferencias */
+    height: 60px; /* Ajusta el tamaño del icono según tus preferencias */
+    border-radius: 50%;
+    overflow: hidden;
+  }
+  
