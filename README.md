@@ -43,6 +43,8 @@ Funcionalidades
     - Aplicación móvil: Una aplicación móvil React Native permite acceder a los datos en tiempo real y recibir notificaciones.
     - Integración con ChatGPT: Para responder preguntas personalizadas sobre la rediación uv a los usuarios con los datos generados de la aplicación.
 
+## Diagrama de Funcionamiento
+![{523F3201-A4B7-422C-AA47-C03F54040279}](https://github.com/user-attachments/assets/58157d90-7a05-4853-97e6-4153c1025ec5)
 
 ## Instalación y configuración
   - [X] Requisitos previos: Instalar Git, Node.js, Docker y las dependencias específicas de cada tecnología. (consulta el archivo package.json para más detalles)
