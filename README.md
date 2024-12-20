@@ -45,14 +45,26 @@ Funcionalidades
 
 
 ## Instalación y configuración
-  - [X] Requisitos previos: Instalar Git, Node.js, Docker y las dependencias específicas de cada tecnología.
+  - [X] Requisitos previos: Instalar Git, Node.js, Docker y las dependencias específicas de cada tecnología. (consulta el archivo package.json para más detalles)
   - [X] Clonar el repositorio:
+    -  Abre una terminal o símbolo del sistema
+    -  Navega hasta el directorio donde deseas clonar el repositorio
+    -  Ejecuta el siguiente comando para clonar el repositorio:
 
   ```
       git clone https://github.com/DavidSotoX/Sistema-de-Monitoreo-Radiacion-uv.git*\ 
   ```
-  - Configuración del entorno: 
-   
+  - [X] Configuración del entorno: 
+  ```
+    npm install  # usando npm
+    yarn install  # usando yarn
+
+  ```
+  - [X] Para iniciar el server :
+  ```
+    npm start
+
+  ```
 ### Contribución
  ¡Las contribuciones son bienvenidas! Para contribuir a este proyecto:
         Forkea el repositorio.
