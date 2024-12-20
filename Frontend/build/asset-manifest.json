@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/static/css/main.2c41df31.css",
+    "main.js": "/static/js/main.78cd9e83.js",
+    "static/js/787.9e9f4ffd.chunk.js": "/static/js/787.9e9f4ffd.chunk.js",
+    "static/media/venue_location_icon.png": "/static/media/venue_location_icon.b111b680d53d9d93fbaf.png",
+    "index.html": "/index.html",
+    "main.2c41df31.css.map": "/static/css/main.2c41df31.css.map",
+    "main.78cd9e83.js.map": "/static/js/main.78cd9e83.js.map",
+    "787.9e9f4ffd.chunk.js.map": "/static/js/787.9e9f4ffd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2c41df31.css",
+    "static/js/main.78cd9e83.js"
+  ]
+}
